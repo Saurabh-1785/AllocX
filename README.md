@@ -1,8 +1,5 @@
 # AllocX - High-Performance Memory Allocator
 
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Custom memory allocation library implementing specialized allocators for performance-critical systems. Designed for game engines, HFT systems, and real-time applications where standard `malloc`/`new` introduce unacceptable latency and fragmentation.
 
 ## Features
@@ -142,7 +139,3 @@ AllocX/
 ├── tests/                    # Unit tests
 └── examples/                 # Usage examples
 ```
-
-## License
-
-MIT License - See LICENSE file for details.
